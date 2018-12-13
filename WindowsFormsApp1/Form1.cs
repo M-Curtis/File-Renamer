@@ -32,8 +32,8 @@ namespace WindowsFormsApp1
             {
                 var folder = item.Substring(0, item.LastIndexOf('\\') + 1);
                 var file = item.Substring(item.LastIndexOf('\\') + 1);
-                var episode = Regex.Match(file, "S\\d\\dE\\d\\d+").Value;
-                var newItem = $"{folder}{txtBxName.Text} - {episode}.mp4";
+                var episode = Regex.Match(file, "[Ss]\\d\\d[Ee]\\d\\d+").Value;
+                var newItem = $"{folder}{txtBxName.Text} - {episode.ToUpper()}.{txtBxExtension.Text}";
                 lstBxNewItems.Items.Add(newItem);
             }
         }

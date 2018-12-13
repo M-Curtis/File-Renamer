@@ -48,7 +48,7 @@
             this.lstBxScannedItems.Name = "lstBxScannedItems";
             this.lstBxScannedItems.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.lstBxScannedItems.Size = new System.Drawing.Size(642, 303);
-            this.lstBxScannedItems.TabIndex = 0;
+            this.lstBxScannedItems.TabIndex = 10;
             // 
             // menuStrip1
             // 
@@ -71,7 +71,7 @@
             // openFolderToolStripMenuItem
             // 
             this.openFolderToolStripMenuItem.Name = "openFolderToolStripMenuItem";
-            this.openFolderToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.openFolderToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openFolderToolStripMenuItem.Text = "Open Folder";
             this.openFolderToolStripMenuItem.Click += new System.EventHandler(this.OpenFolderToolStripMenuItem_Click);
             // 
@@ -81,7 +81,7 @@
             this.lstBxNewItems.Location = new System.Drawing.Point(702, 41);
             this.lstBxNewItems.Name = "lstBxNewItems";
             this.lstBxNewItems.Size = new System.Drawing.Size(667, 303);
-            this.lstBxNewItems.TabIndex = 2;
+            this.lstBxNewItems.TabIndex = 10;
             // 
             // btnChange
             // 
@@ -98,7 +98,7 @@
             this.txtBxName.Location = new System.Drawing.Point(392, 399);
             this.txtBxName.Name = "txtBxName";
             this.txtBxName.Size = new System.Drawing.Size(142, 20);
-            this.txtBxName.TabIndex = 4;
+            this.txtBxName.TabIndex = 1;
             // 
             // label1
             // 
@@ -123,7 +123,7 @@
             this.txtBxExtension.Location = new System.Drawing.Point(392, 373);
             this.txtBxExtension.Name = "txtBxExtension";
             this.txtBxExtension.Size = new System.Drawing.Size(142, 20);
-            this.txtBxExtension.TabIndex = 6;
+            this.txtBxExtension.TabIndex = 0;
             // 
             // Form1
             // 
